@@ -1,0 +1,93 @@
+body {
+  background: url('http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h{
+    position: Sticky;
+    font-weight: bold;
+    font-size:55px;
+    color: rgb(250, 0, 0);
+    margin-left: 20px;
+    margin-right: 950px;
+}
+
+#LogIn{
+    background-color:rgb(255, 0, 0);
+    font-size:15px;
+    color: #ffffff;
+    padding: 3px 30px;
+    margin-top: 10px;
+}
+
+#Lang{
+    border-radius: 3px;
+    border: medium solid #ffffff;
+    background-color:rgb(0, 0, 0);
+    font-size:15px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black;
+    padding: 3px 30px;
+    margin:8px 7px;
+}
+
+.btn-group{
+  width: 280px;
+  height: 50px;
+  position: sticky;
+  left: 77%;
+
+}
+
+.middleScreen{
+  text-align: center;
+  width: 800px;
+  height: 200px;
+  position: sticky;
+  left: 25%;
+  margin-left: 20px;
+  margin-top: 130px;
+}
+p1{
+    position: sticky;
+    font-family: "Arial", Impact, Charcoal, sans-serif;
+    font-weight: bold;
+    font-size:65px;
+    color: #ffffff;
+}
+
+.middleScreen2{
+  text-align: center;
+  width: 800px;
+  height: 60px;
+  position: sticky;
+  left: 25%;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+p2{
+    font-family: "Arial", Impact, Charcoal, sans-serif;
+    font-size:30px;
+    color: #ffffff;
+}
+p3{
+    font-family: "Arial", Impact, Charcoal, sans-serif;
+    font-size:20px;
+    color: #ffffff;
+}
+
+.input-group{
+  width: 800px;
+  left: 25%;
+}
+
+#startbtn{
+    height: 50px;
+    background-color:rgb(255, 0, 0);
+    font-size:25px;
+    color: #ffffff;
+    padding: 3px 30px;
+}

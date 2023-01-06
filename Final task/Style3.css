@@ -1,0 +1,186 @@
+body {
+  background: url('https://images4.alphacoders.com/877/877397.jpg') 
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h{
+    position: Sticky;
+    font-weight: bold;
+    font-size:55px;
+    color: rgb(250, 0, 0);
+    margin-left: 20px;
+    margin-right: 1150px;
+}
+.help-group{
+  position: Sticky;
+  width: 500px;
+  height: 490px;
+  position: Sticky;
+  margin-top: 50px;
+  left: 15%;
+  margin-left: 50px;
+  margin-right:50px;
+  background-color:rgb(230, 230, 230)
+}
+
+h1{
+    position: absolute;
+    font-weight: bold;
+    font-size:32px;
+    color: #000000;
+    margin-left: 35px;
+    top: 8%;
+}
+
+p{
+    position: absolute;
+    font-size:17px;
+    color: #000000;
+    margin-left: 35px;
+    top: 22%;
+}
+
+p2{
+    position: relative;
+    top: 32%;
+    font-size:17px;
+    color: #000000;
+    margin-left: 35px;
+}
+
+p3{
+    position: relative;
+    top: 31%;
+    font-size:17px;
+    color: #000000;
+    margin-left: 35px;
+}
+
+.input-group1{
+  position: absolute;
+  width: 425px;
+  height: 60px;
+  top: 60%;
+  margin-left: 35px;
+}
+
+
+.container {
+  top:30%;
+  height: 5px;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  margin-left: 55px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;  
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+#sendbtn{
+  position: relative;
+  width: 425px;
+  height: 50px;
+  margin-bottom: 23px;
+  margin-top: 225px;
+  margin-left: 35px;
+  background-color:rgb(50, 50, 240);
+  font-size:20px;
+  color: #ffffff;
+
+}
+
+a{
+    position: Sticky;
+    font-size:20px;
+    color: rgb(250, 0, 0);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.forget{
+   position: relative;
+   font-size:18px;
+   margin-left: 30px;
+   margin-top: 30px;
+   color: rgb(50, 155, 255);
+}
+
+p7{
+  margin-left: 225px;
+  margin-right: 725px;
+  margin-top: 20px;
+  font-size:18px;
+  color: rgb(155, 155, 155);
+}
+
+p8{
+  margin-left: 225px;
+  font-size:18px;
+  color: rgb(155, 155, 155);
+}
+
+.learn{
+  margin-left: 5px;
+  font-size:15px;
+  font-weight: bold;
+  color: rgb(155, 155, 155);
+}
